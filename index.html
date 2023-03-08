@@ -97,10 +97,17 @@
                     placeholder="Enter your name here" required>
             </div>
 
+            <!-- MAKAUT Roll -->
+            <div class="my-3">
+                <label for="mRoll" class="form-label">MAKAUT Roll</label>
+                <input type="number" autocomplete="off" class="form-control text-uppercase" id="mRoll"
+                    placeholder="Enter your MAKAUT roll" required>
+            </div>
+
             <!-- Class roll number -->
             <!-- <div class="my-3">
                 <label for="sRoll" class="form-label">Class Roll Number</label>
-                <input type="text" class="form-control" id="sRoll" placeholder="eg. 22-CSE-012" required>
+                <input type="text" class="form-c ontrol" id="sRoll" placeholder="eg. 22-CSE-012" required>
             </div> -->
 
             <!-- Class roll number -->
@@ -139,11 +146,14 @@
             <div class="my-3">
                 <label for="subjectCode" class="form-label">Select Subject</label>
                 <select class="form-select" id="subjectCode" required>
-                    <option selected value="Physics,BS-PH101">Physics (BS-PH101)</option>
-                    <option value="Mathematics,BS-M101">Mathematics (BS-M101)</option>
-                    <option value="Basic Electrical Engineering,ES-EE101">Basic Electrical Engineering (ES-EE101)
+                    <option value="Physics,BS-PH201">Physics (BS-PH201)</option>
+                    <option selected value="Chemisrty,BS-CH201">Chemisrty (BS-CH201)</option>
+                    <option value="Mathematics-IIA,BS-M201">Mathematics - II A (BS-M201)</option>
+                    <option value="Mathematics-IIB,BS-M202">Mathematics - II B (BS-M202)</option>
+                    <option value="English,HM-HU201">English (HM-HU201)</option>
+                    <option value="Programming for Problem Solving,ES-CS201">Programming for Problem Solving (ES-CS201)</option>
+                    <option value="Basic Electrical Engineering,ES-EE201">Basic Electrical Engineering (ES-EE201)
                     </option>
-                    <option value="Chemisrty,BS-CH101">Chemisrty (BS-CH101)</option>
                 </select>
             </div>
 
@@ -151,15 +161,15 @@
             <div class="my-3">
                 <label for="sem" class="form-label">Select Semester</label>
                 <select class="form-select" id="sem" required>
-                    <option selected value="1st">1st Semester</option>
-                    <option value="2nd  ">2nd Semester</option>
+                    <option value="1st">1st Semester</option>
+                    <option selected value="2nd  ">2nd Semester</option>
                 </select>
             </div>
 
             <!-- Optional File name -->
             <div class="my-3">
                 <label for="cName" class="form-label">PDF File Name <span class="text-muted">(optional)</span></label>
-                <input type="text" class="form-control" id="cName" placeholder="Default filename = Your Roll Number">
+                <input type="text" class="form-control" id="cName" placeholder="Default filename = Your MAKAUT Roll">
             </div>
 
             <span class="text-danger">*(Please re-check every field before submit)</span>
@@ -190,4 +200,5 @@
 
 <!-- Custom JS -->
 <script src="./js/index.js"></script>
+
 </html>
